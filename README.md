@@ -6,7 +6,11 @@
 
 Washington, DC's Building Energy Performance Standards (BEPS) program requires large buildings to disclose annual energy and water consumption data. This creates a public dataset reflecting actual building performance across the city. However, raw data alone provides limited insight. The dashboard enables stakeholders—property managers, policymakers, researchers—to interactively explore energy performance patterns, test hypotheses about consumption relationships, and identify efficiency opportunities.
 
-Key questions the dashboard addresses: - How does energy consumption vary by building age, size, or location? - Are certain building types systematically more efficient than others? - What is the relationship between energy intensity and key facility metrics? - How do year-to-year trends compare?
+Key questions the dashboard addresses: 
+- How does energy consumption vary by building age, size, or location?
+- Are certain building types systematically more efficient than others?
+- What is the relationship between energy intensity and key facility metrics?
+- How do year-to-year trends compare?
 
 ## Approach
 
