@@ -22,3 +22,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *~
+
+# Build artifacts
+README.html
+README_files/
