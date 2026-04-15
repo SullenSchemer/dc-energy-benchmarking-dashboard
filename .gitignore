@@ -1,0 +1,24 @@
+# R-specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.here
+
+# Shiny
+rsconnect/
+shiny_bookmark_state/
+.shiny_bookmark*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*~
