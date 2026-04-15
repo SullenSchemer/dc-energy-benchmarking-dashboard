@@ -2,7 +2,7 @@
 
 **Live app**: [dc-energy-benchmarking-dashboard](https://sullenschemer.shinyapps.io/dc-energy-benchmarking/)
 
-**Preview**: ![](\src/www\dashboard_preview.png)
+**Preview**: ![Dashboard Preview](src/www/dashboard_preview.png)
 
 ## Problem
 
