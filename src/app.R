@@ -16,7 +16,7 @@ thematic::thematic_shiny(font = "auto")
 theme_set(theme_minimal(base_size = 14))
 
 # ==== DATA LOADING & TRANSFORMATION ====
-energy_df <- read_rds("../data/dc_energy_benchmark_2025.rds")
+energy_df <- read_rds("data/dc_energy_benchmark_2025.rds")
 
 # Transform columns to factors and create derived variables
 energy_df <- energy_df %>%

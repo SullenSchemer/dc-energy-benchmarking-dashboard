@@ -1,6 +1,8 @@
 # DC Energy Benchmarking Dashboard
 
-![](/src/www/dashboard_preview.png)
+**Live app**: [dc-energy-benchmarking-dashboard](https://sullenschemer.shinyapps.io/dc-energy-benchmarking/)
+
+**Preview**: ![](/src/www\dashboard_preview.png)
 
 ## Problem
 
@@ -47,12 +49,12 @@ dc-energy-benchmarking-dashboard/
 ├── .gitignore
 ├── src/
 │   ├── app.R
+│   ├── data/
+│   │   ├── dc_energy_benchmark_2025.rds
+│   │   └── README.md
 │   └── www/
-│       └── dc_energy_logo.webp
+│       ├── dc_energy_logo.webp
 │       └── dashboard_preview.png
-└── data/
-    ├── dc_energy_benchmark_2025.rds
-    └── README.md
 ```
 
 ## Usage
