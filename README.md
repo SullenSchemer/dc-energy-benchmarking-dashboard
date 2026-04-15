@@ -1,6 +1,6 @@
 # DC Energy Benchmarking Dashboard
 
-![](/src/www/dashboard_preview.png){fig-align="center"}
+![](/src/www/dashboard_preview.png)
 
 ## Problem
 
