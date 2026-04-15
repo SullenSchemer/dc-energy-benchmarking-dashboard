@@ -1,16 +1,12 @@
 # DC Energy Benchmarking Dashboard
 
-![Dashboard preview](src/www/dashboard-preview.png)
+![](src/www\dashboard_preview.png){fig-align="center"}
 
 ## Problem
 
 Washington, DC's Building Energy Performance Standards (BEPS) program requires large buildings to disclose annual energy and water consumption data. This creates a public dataset reflecting actual building performance across the city. However, raw data alone provides limited insight. The dashboard enables stakeholders—property managers, policymakers, researchers—to interactively explore energy performance patterns, test hypotheses about consumption relationships, and identify efficiency opportunities.
 
-Key questions the dashboard addresses:
-- How does energy consumption vary by building age, size, or location?
-- Are certain building types systematically more efficient than others?
-- What is the relationship between energy intensity and key facility metrics?
-- How do year-to-year trends compare?
+Key questions the dashboard addresses: - How does energy consumption vary by building age, size, or location? - Are certain building types systematically more efficient than others? - What is the relationship between energy intensity and key facility metrics? - How do year-to-year trends compare?
 
 ## Approach
 
@@ -38,16 +34,13 @@ The interactivity allows users to segment by year and building characteristics, 
 
 ## Data Sources
 
-**DC Energy Benchmarking Open Data**
-- DCGIS Building Energy Benchmarking Dataset: https://opendata.dc.gov/datasets/DCGIS::building-energy-benchmarking/about
-- Building Energy Performance Standards Program: https://doee.dc.gov/service/building-energy-performance-standards
-- Downloaded October 2025
+**DC Energy Benchmarking Open Data** - DCGIS Building Energy Benchmarking Dataset: https://opendata.dc.gov/datasets/DCGIS::building-energy-benchmarking/about - Building Energy Performance Standards Program: https://doee.dc.gov/service/building-energy-performance-standards - Downloaded October 2025
 
 The dataset includes building characteristics (year built, location), facility metrics (SQFT, metered status), and performance indicators (Energy Star Score, site energy intensity, GHG emissions, water intensity).
 
 ## Project Structure
 
-```
+```         
 dc-energy-benchmarking-dashboard/
 ├── README.md
 ├── LICENSE
@@ -64,18 +57,18 @@ dc-energy-benchmarking-dashboard/
 
 ## Usage
 
-**Requirements:**
-- R 4.0+
-- Packages: shiny, ggplot2, dplyr, tidyverse, broom, bslib, thematic, DT
+**Requirements:** - R 4.0+ - Packages: shiny, ggplot2, dplyr, tidyverse, broom, bslib, thematic, DT
 
 **Install dependencies:**
-```r
+
+``` r
 install.packages(c("shiny", "ggplot2", "dplyr", "tidyverse", "broom", "bslib", "DT"))
 remotes::install_github("rstudio/thematic")
 ```
 
 **Launch the app:**
-```r
+
+``` r
 shiny::runApp("src")
 ```
 
