@@ -2,17 +2,13 @@
 
 **Live app**: [dc-energy-benchmarking-dashboard](https://sullenschemer.shinyapps.io/dc-energy-benchmarking/)
 
-**Preview**: ![](/src/www\dashboard_preview.png)
+**Preview**: ![](\src/www\dashboard_preview.png)
 
 ## Problem
 
 Washington, DC's Building Energy Performance Standards (BEPS) program requires large buildings to disclose annual energy and water consumption data. This creates a public dataset reflecting actual building performance across the city. However, raw data alone provides limited insight. The dashboard enables stakeholders—property managers, policymakers, researchers—to interactively explore energy performance patterns, test hypotheses about consumption relationships, and identify efficiency opportunities.
 
-Key questions the dashboard addresses: 
-- How does energy consumption vary by building age, size, or location?
-- Are certain building types systematically more efficient than others?
-- What is the relationship between energy intensity and key facility metrics?
-- How do year-to-year trends compare?
+Key questions the dashboard addresses: - How does energy consumption vary by building age, size, or location? - Are certain building types systematically more efficient than others? - What is the relationship between energy intensity and key facility metrics? - How do year-to-year trends compare?
 
 ## Approach
 
@@ -63,6 +59,10 @@ dc-energy-benchmarking-dashboard/
 
 ## Usage
 
+**Live app**: Visit [https://sullenschemer.shinyapps.io/dc-energy-benchmarking/](https://sullenschemer.shinyapps.io/dc-energy-benchmarking/) — no installation required.
+
+**Run locally:**
+
 **Requirements:** - R 4.0+ - Packages: shiny, ggplot2, dplyr, tidyverse, broom, bslib, thematic, DT
 
 **Install dependencies:**
@@ -80,6 +80,12 @@ shiny::runApp("src")
 
 The app will open in your default browser at `http://localhost:3838/` (or a nearby port).
 
+**Deploy to shinyapps.io:**
+
+``` r
+rsconnect::deployApp("src", appName = "dc-energy-benchmarking")
+```
+
 ## Tech Stack
 
 - **R** 4.0+: Core language
@@ -90,6 +96,7 @@ The app will open in your default browser at `http://localhost:3838/` (or a near
 - **bslib**: Modern Bootstrap themes
 - **thematic**: Automatic plot theming
 - **DT**: Interactive data tables
+- **rsconnect**: Deployment to [shinyapps.io](https://www.shinyapps.io/)
 
 ## Limitations
 
